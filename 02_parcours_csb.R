@@ -392,7 +392,7 @@ fun.parcours <- function(varData, varLabel, varPahtOut) {
       "pathCsb_", varLabel, ".gpkg"
     ),
     driver = "GPKG",
-    layer = paste0("pathSite_", varLabel),
+    layer = paste0("pathCsb_", varLabel),
     delete_layer = TRUE,
     quiet = TRUE
   )
