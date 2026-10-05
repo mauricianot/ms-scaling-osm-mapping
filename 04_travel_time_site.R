@@ -925,7 +925,7 @@ cat("MERGE WITH HOUSEHOLD DISTANCES\n")
 cat("============================================================\n")
 
 siteCompletDistanceMenage <- fread(
-  "./table/distance_menagesToChefLieuSiteMnjComplet.csv"
+  distance_household_file
 )
 
 
